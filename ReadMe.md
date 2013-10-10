@@ -1,4 +1,4 @@
-#Log events processing using Flume
+#Forwarding log events to HDFS using Flume
 This use-case processes(filters) http log events recieved from apache web server(`httpd`), it does the following:
 
 * Reads logs from webservers using **exec** source
